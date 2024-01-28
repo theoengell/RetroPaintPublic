@@ -1,44 +1,776 @@
+﻿
 \include{help/help_header_footer.txt}
+
 
 \page{RetroPaint}
 \begin{center}
 \image{help/pics/retropaint_logo_800x400.png}
 \end{center}
 
+
+
+
 \section{Developed by Theo Engell}
 %RetroPaint is your friendly retro image program. Supporting all ye ole home computers: Commodore 64, Amiga, VIC-20, Commodore 16, ZX Spectrum, Amstrad, IBM PC CGA, etc.
 Alpha version
 
-This page will contain help. Non-functional at the moment.
+
+
+
+This page will contain help. Some links are non-functional at the moment.
+
+
+\include{help/test.txt}
+
+
+
 
 \tablebegin{2}
-	\begin{center}
-	\button{Welcome, Welcome}
-	\end{center}
-	\nextcolumn
-	A quick welcome
+        \begin{center}
+        \button{Welcome, Welcome}
+        \end{center}
+        \nextcolumn
+        A quick welcome
 \tableend
 \tablebegin{2}
-	\begin{center}
-	\button{Getting started, GettingStarted}
-	\end{center}
-	\nextcolumn
-	Introduction to RetroPaint
+        \begin{center}
+        \button{Getting started, GettingStarted}
+        \end{center}
+        \nextcolumn
+        Introduction to RetroPaint
 \tableend
 \tablebegin{2}
-	\begin{center}
-	\button{Credits, Credits}
-	\end{center}
-	\nextcolumn
-	Thanks to those who helped
+        \begin{center}
+        \button{User Interface, UserInterface}
+        \end{center}
+        \nextcolumn
+        User Interface explained
 \tableend
 \tablebegin{2}
-	\begin{center}
-	\button{Licenses, Licenses}
-	\end{center}
-	\nextcolumn
-	List with 3rd party licenses
+        \begin{center}
+        \button{FAQ, FAQ}
+        \end{center}
+        \nextcolumn
+        Frequently Asked Questions
+\tableend
+\tablebegin{2}
+        \begin{center}
+        \button{Credits, Credits}
+        \end{center}
+        \nextcolumn
+        Thanks to those who helped
+\tableend
+\tablebegin{2}
+        \begin{center}
+        \button{Licenses, Licenses}
+        \end{center}
+        \nextcolumn
+        List with 3rd party licenses
 \tableend
 
+
+
+
+\page{Welcome}
+\title{Welcome to Retro Paint}
+
+
+
+
+RetroPaint. It is a tribute to the old graphics hardware that we grew up with and still cherish. It is a way of reliving the nostalgia and the joy that we felt with those machines. RetroPaint is aiming to recreate that experience - in as many ways as possible. You might want to make a giant poster for your bedroom wall, stickers for your band, or something else equally creative and fun. It is not just about making something that works on the hardware, but also about capturing the aesthetic and the mood, in any shape or form you desire. That is why you have the option to use the unrestricted modes and to experiment with different styles and effects (even if that means you can’t transfer it to the original device). It is not always faithful to the original, but that is part of the adventure. And it can still generate those compatible (or close to) old school binaries. I hope that the RetroPaint tools and options make it easy for you to create a result you like or something that you want to refine, maye using other tools too. So, please be creative and join in on the fun, cross the beams! It has to be fun, right? 
+
+
+
+
+
+
+
+
+\page{FAQ}
+
+
+
+
+\title{FAQ - Frequently Asked Questions}
+
+
+
+
+\section{How do i set precise values?}
+You can stretch the window where the slider is making the sliders wider, hence more precise. 
+Control Clicking on sliders lets you type values so you can set up precise values. 
+
+
+
+
+\section{How do i edit masks?}
+Right Click on layer name lets you enable/disable mask editing. 
+
+
+
+
+\begin{center}
+\image{help/pics/help_layers_enable.png}
+\end{center}
+It adds a button in the image window that lets you edit the mask.
+\begin{center}
+\image{help/pics/help_image_editmask.png}
+\end{center}
+Clicking it enters mask mode.
+\begin{center}
+\image{help/pics/help_image_editmask_buttons.png}
 \end{center}
 
+
+
+
+\begin{center}
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Brush Size
+        \end{center}
+        \nextcolumn
+        controls the size of the brush. Theo, please, please, please add '[' and ']' keys to control the size from the keyboard like in all major painting apps.
+\tableend
+
+
+
+
+% please make it so that the right mouse button works opposite to the left one. If the left one draws, then the right erases. That would make working so much easier.
+
+
+
+
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Draw 
+        \end{center}
+        \nextcolumn
+        draw mask - makes non transparent.
+\tableend
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Erase
+        \end{center}
+        \nextcolumn
+        erase mask - makes transparent.
+\tableend
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Invert
+        \end{center}
+        \nextcolumn
+        inverts mask.
+\tableend
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Fill
+        \end{center}
+        \nextcolumn
+        makes the entire layer non transparent.
+\tableend
+
+
+
+
+\tablebegin{2}
+        \begin{center}
+        Clear
+        \end{center}
+        \nextcolumn
+        makes the entire layer transparent.
+\tableend
+\end{center}
+
+
+
+
+\section{How do I add my own palette?}
+Currently adding palettes only work in c64 mode. You need to have the palette in VICE format (.vpl file) and copy it to the palettes folder in your RetroPaint installation. You need to restart RetroPaint to be able to use newly added palettes.
+
+
+
+
+\section{I installed a new version and all my palettes went missing.}
+If you installed a new version of the program in the new inventory then you need to copy palettes to the new folder.
+
+
+
+
+\section{What are the best settings to make conversions?}
+It highly depends on the image. There is no one setting that fits all. You need to experiment with different palettes, dithering types and settings. Also tweaking image Adjustments (Adjustments window) might help improve results.
+
+
+
+
+\section{My image seems to have a lot of gray in it, i turn saturation up but there are still lots of grays. How do i make it more colorful?S}
+In cases like that you can turn off gray colors in the Colors window, Palette section.
+
+
+
+
+\page{GettingStarted}
+\title{Getting Started}
+Retro Paint might be a little daunting at times.  Worry not, we will explain everything. We start at the simple task of converting the image to c64 format as an example.
+
+
+
+
+\page{UserInterface}
+\title{User Interface}
+You will find all elements of User Interface explained here.
+
+
+
+
+\section{Menus}
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_menu_file.png}
+        \nextcolumn        
+        \section{ }
+        \tablebegin{2}
+                New Doc
+        \nextcolumn
+                Opens empty document
+        \tableend
+        \tablebegin{2}
+                Open File                
+                \nextcolumn
+                Open image file from disk as new document.
+        \tableend
+        \tablebegin{2}
+                Save PNG
+                \nextcolumn
+                Saves current image in PNG file format. It saves flattened image so layers are not saved. PNG is a preferred file format as it uses lossless data compression that combines quality and reasonable size. 
+        \tableend
+        \tablebegin{2}
+                Save GIF
+                \nextcolumn
+                Saves current image in GIF file format. It saves flattened images so layers are not saved.
+        \tableend
+        \tablebegin{2}
+                Save JPG
+                \nextcolumn
+                Saves current image in JPG file format. It saves flattened images so layers are not saved. JPG is lossy format, so it can introduce compression artifacts.
+        \tableend
+        \tablebegin{2}
+                Save PRG
+                \nextcolumn
+                Saves curent layer as Commodore 64 PRG executable. Only works for C64 Multicolor mode. If you have multiple layers, Copy layer stack to clipboard, then paste Clipboard as new layer and save this.
+        \tableend
+        \tablebegin{2}
+                Save Koala
+                \nextcolumn
+                Saves current layer as Commodore 64 Koala format executable. Only works for C64 Multicolor mode. If you have multiple layers, Copy layer stack to clipboard, then paste Clipboard as new layer and save this.
+        \tableend
+\tableend
+*Please note all saving happens in the Output folder of your RetroPaint installation.
+\section{ }
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_menu_edit.png}
+        \nextcolumn        
+        \section{ }
+        \tablebegin{2}
+                Undo
+                \nextcolumn
+                Undos last action.
+        \tableend
+        \tablebegin{2}
+                Redo
+                \nextcolumn
+                Redoes undone action.
+        \tableend
+        \tablebegin{2}
+                Copy layer stack to clipboard
+                \nextcolumn
+                Copies all layers and puts it as one image into the clipboard. 
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Paste from clipboard
+                \nextcolumn
+                Pastes clipboard content as a new layer.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                \nextcolumn
+
+
+
+
+        \tableend
+\tableend
+*Please note UNDO/REDO functionality is currently work in progress and not all actions can be undone. Theo is working diligently to cover as many actions as possible.
+\section{ }
+
+
+
+
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_menu_emulation.png}
+        \nextcolumn
+        \section{ }        
+        \tablebegin{2}
+                Start VICE
+                \nextcolumn
+                Starts VICE emulator. 
+        \tableend
+        \tablebegin{2}
+                Save PRG
+                \nextcolumn
+                Saves current layer as Commodore 64 PRG executable. Only works for C64 Multicolor mode. If you have multiple layers, Copy layer stack to clipboard, then paste Clipboard as new layer and save this.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Upload to VICE
+                \nextcolumn
+                Uploads the current layer to the Commodore 64 VICE emulator. Only works for C64 Multicolor mode.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                \nextcolumn
+                Runs current layer on Commodore 64 VICE emulator. Only works for C64 Multicolor mode.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Reset VICE
+                \nextcolumn
+                Resets Commodore 64 VICE emulator.
+        \tableend
+
+
+
+
+\tableend
+*Please note you need to set up a path to VICE in the Settings window first.
+\section{ }
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_menu_windows.png}
+        \nextcolumn        
+        \section{ }
+        \tablebegin{2}
+                Colors
+                \nextcolumn
+                Main settings of colors, modes, dithering and colorspace calculations are done here.
+        \tableend
+        \tablebegin{2}
+                ColorsLUTEditor
+                \nextcolumn
+                You set up Colors Look Up Tables here, extract and generate palettes.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Adjustments
+                \nextcolumn
+                Typical image adjustments are done here. Brightness, Contrast, Hue, Saturation, etc. 
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Palette
+                \nextcolumn
+                I do not understand this window. Probably is unfinished yet.
+        \tableend
+
+
+
+
+        \tablebegin{2}
+                Histogram
+                \nextcolumn
+                Shows histogram of how colors are distributed in the image. It does represent the current layer. Does not take masks into account.
+        \tableend
+        \tablebegin{2}
+                Luminance
+                \nextcolumn
+                Luminance Table Editor
+        \tableend
+        \tablebegin{2}
+                Misc
+                \nextcolumn
+                Miscellaneous settings concerning image size, window scale, pixel aspect.
+        \tableend
+        \tablebegin{2}
+                Settings
+                \nextcolumn
+                Miscellaneous settings concerning program operations.
+        \tableend
+        \tablebegin{2}
+                ActionStack
+                \nextcolumn
+                Actions that can be undone/redone.
+        \tableend
+        \tablebegin{2}
+                DebugLog
+                \nextcolumn
+                Log used to debug program operations.
+        \tableend
+        \tablebegin{2}
+                Help
+                \nextcolumn
+                Opens help windows. You are reading it now.
+        \tableend
+
+
+
+
+\tableend
+\section{ }
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_menu_help.png}
+        \nextcolumn        
+        \section{ }
+        \tablebegin{2}
+                About
+                \nextcolumn
+                Opens About popup.
+        \tableend
+\tableend
+
+
+\section{Windows}
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_image.png}
+        \nextcolumn        
+        \section{ }
+        Image window
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_layers.png}
+        \nextcolumn        
+        \section{ }
+        Layers
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_colors.png}
+        \nextcolumn        
+        \section{ }
+        Main settings of colors, modes, dithering and colorspace calculations are done here.
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_colorsluttable.png}
+        \nextcolumn        
+        \section{ }
+        You set up Colors Look Up Tables here, extract and generate palettes.
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_adjustments.png}
+        \nextcolumn        
+        \section{ }
+        Typical image adjustments are done here. Brightness, Contrast, Hue, Saturation, etc. 
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_palette.png}
+        \nextcolumn        
+        \section{ }
+        I do not understand this window. Probably is unfinished yet.
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_histogram.png}
+        \nextcolumn        
+        \section{ }
+        Shows histogram of how colors are distributed in the image. It does represent the current layer. Does not take masks into account.
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+        \tablebegin{2}
+                
+                \nextcolumn
+                
+        \tableend
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_luminancetableeditor.png}
+        \nextcolumn        
+        \section{ }
+        Luminance Table Editor. You add colors by clickin them. It is used when luminance mapping is selected.
+        \tablebegin{2}
+                X
+                \nextcolumn
+                Removes color
+        \tableend
+        \tablebegin{2}
+                D
+                \nextcolumn
+                Moves color one position down
+        \tableend
+        \tablebegin{2}
+                U
+                \nextcolumn
+                Moves color one position up
+        \tableend
+        \tablebegin{2}
+                Auto
+                \nextcolumn
+                Prepares Table automatically. Results may varry.
+        \tableend
+
+
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_misc.png}
+        \nextcolumn        
+        \section{ }
+        Miscellaneous settings concerning image size, window scale, pixel aspect.
+        \tablebegin{2}
+                Window scale
+                \nextcolumn
+                  Scale of displayed window. If you want to set integer values, control click the slider and type.    
+        \tableend
+        \tablebegin{2}
+                Clipboard scale
+                \nextcolumn
+                Scale multiplier when copying image to clipboard.
+        \tableend
+        \tablebegin{2}
+                Image Width
+                \nextcolumn
+                Horizontal size of the image in pixels.
+        \tableend
+        \tablebegin{2}
+                Image Height
+                \nextcolumn
+                Bertical size of the image in pixels.
+        \tableend
+        \tablebegin{2}
+                Buttons
+                \nextcolumn
+                Preset most popular image sizes           
+        \tableend
+        \tablebegin{2}
+                Pixel aspect
+                \nextcolumn
+                Selects pixel aspect. Useful if you make sure circles are perfectly round when the image will be displayed on a corresponding TV device. 
+        \tableend
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_settings.png}
+        \nextcolumn        
+        \section{ }
+        Miscellaneous settings concerning program operations.
+        \tablebegin{2}
+                Autofit on load
+                \nextcolumn
+                Should the image be automatically fit to screen size on load.
+        \tableend
+        \tablebegin{2}
+                Subsample
+                \nextcolumn
+                Should high quality resizing be used vs nearest neighbor resizing.
+        \tableend
+        \tablebegin{2}
+                Reuse settings on load
+                \nextcolumn
+                If checked, uses last edited document settings on loading a new image, or use default otherwise. Useful if you convert multiple files to the same format.
+        \tableend
+        \tablebegin{2}
+                Path to VICE
+                \nextcolumn
+                Path to VICE emulator. Required to be able to test c64 images in the emulator.
+        \tableend
+        \tablebegin{2}
+                Grid Color                
+                \nextcolumn
+                Color used to visualize grid on images. 
+        \tableend
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_actionstack.png}
+        \nextcolumn        
+        \section{ }
+        History of edits. Actions that can be undone/redone.
+        \section{ }
+        \tablebegin{2}
+                Undo
+                \nextcolumn
+                Moves down the stack one position undoing 1 action.
+        \tableend
+        \tablebegin{2}
+                Redo
+                \nextcolumn
+                 Moves up the stack one position redoing 1 action       
+        \tableend
+        \tablebegin{2}
+                Clear
+                \nextcolumn
+                Clears action history.
+        \tableend
+
+
+\tableend
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_debuglog.png}
+        \nextcolumn        
+        \section{ }
+        Log used to debug program operations.
+\tableend
+
+
+
+
+\tablebegin{2}
+        \image{help/pics/help_window_help.png}
+        \nextcolumn        
+        \section{ }
+        Help. You are reading it now.
+\tableend
