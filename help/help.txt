@@ -1,0 +1,44 @@
+\include{help/help_header_footer.txt}
+
+\page{RetroPaint}
+\begin{center}
+\image{help/pics/retropaint_logo_800x400.png}
+\end{center}
+
+\section{Developed by Theo Engell}
+%RetroPaint is your friendly retro image program. Supporting all ye ole home computers: Commodore 64, Amiga, VIC-20, Commodore 16, ZX Spectrum, Amstrad, IBM PC CGA, etc.
+Alpha version
+
+This page will contain help. Non-functional at the moment.
+
+\tablebegin{2}
+	\begin{center}
+	\button{Welcome, Welcome}
+	\end{center}
+	\nextcolumn
+	A quick welcome
+\tableend
+\tablebegin{2}
+	\begin{center}
+	\button{Getting started, GettingStarted}
+	\end{center}
+	\nextcolumn
+	Introduction to RetroPaint
+\tableend
+\tablebegin{2}
+	\begin{center}
+	\button{Credits, Credits}
+	\end{center}
+	\nextcolumn
+	Thanks to those who helped
+\tableend
+\tablebegin{2}
+	\begin{center}
+	\button{Licenses, Licenses}
+	\end{center}
+	\nextcolumn
+	List with 3rd party licenses
+\tableend
+
+\end{center}
+

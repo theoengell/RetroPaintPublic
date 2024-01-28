@@ -1,0 +1,18 @@
+\page{Header}
+
+\begin{center}
+\begin{nopadding}
+\tablebegin{3}
+\image{help/pics/RetroPaint_logo_32.png}
+\nextcolumn
+RetroPaint by Theo Engell (c) 2023
+\nextcolumn
+\image{help/pics/RetroPaint_logo_32.png}
+\tableend
+\end{nopadding}
+\end{center}
+
+\page{Footer}
+
+\button{Main, RetroPaint}
+\reload
