@@ -1,0 +1,86 @@
+\page{Test}
+\tablebegin{2}
+test1
+\nextcolumn
+test2
+\tableend
+
+\tablebegin{2}
+\begin{center}
+test1
+\end{center}
+\nextcolumn
+\begin{center}
+test2
+\end{center}
+\tableend
+
+\tablebegin{2}
+\image{help/pics/help_palette_color_editRGB.png, Editing the color in RGB.}
+\nextcolumn
+\image{help/pics/help_palette_color_editHSV.png, Editing the color in HSV.}
+\tableend
+
+\tablebegin{2}
+This might be there
+\begin{center}
+\image{help/pics/help_palette_color_editRGB.png, Editing the color in RGB.}
+\end{center}
+\nextcolumn
+This might be there2
+\begin{center}
+\image{help/pics/help_palette_color_editHSV.png, Editing the color in HSV.}
+\end{center}
+
+\tableend
+
+
+
+
+
+\page{EvenMore}
+\title{Even more....}
+This page intentionally left blank 
+
+\page{HelpHelp}
+\title{Help Help!}
+The help is basically a simple version of LaTex. Yeah.
+
+Commands start with \ and can take 0, 1 or more arguments. If they take arguments they are in curly brackets {argument0, argument1}
+
+Possible commands are:
+
+page{label}
+
+title{title}
+
+section{title}
+
+image{filename}
+
+button{text, label}
+
+\page{Credits}
+RetroPaint is made by Theo Engell (C) 2023.
+
+\page{License}
+RetroPaint is free for everybody who uses it for non-profit purposes.
+
+Companies earning money using RetroPaint must purchase a license.
+
+\page{LoremIpsum}
+\title{Lorem Ipsum}
+Lorem Ipsum is just nonsense latin
+
+\section{And it just goes on and on...}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et maximus dui. Nulla eget sapien id elit faucibus facilisis non nec tortor. Praesent ut nibh nunc. Sed eu tristique ante. Maecenas tincidunt dictum consequat. Donec non metus eget felis pellentesque semper. Cras rutrum scelerisque urna ac aliquam. Phasellus velit urna, feugiat quis enim quis, pharetra volutpat magna. Aliquam a interdum felis. In efficitur vitae odio sit amet ornare. Nulla vehicula tortor diam, ut interdum diam fringilla finibus. In vitae tellus nec arcu mollis faucibus id vitae lacus.
+
+Aenean a tellus ac diam sodales condimentum. Integer vitae odio nec massa ultricies accumsan. Nunc egestas, massa at blandit luctus, massa eros dictum urna, id consectetur lorem libero ut nulla. Donec mi odio, porta tempor interdum non, venenatis nec urna. Nulla nulla leo, eleifend sit amet pulvinar a, rutrum vitae tortor. Nam tempor nisl est, in semper odio semper eget. Donec facilisis eget magna at lacinia. Vivamus porttitor sagittis lacus et ullamcorper. Sed tincidunt dui dapibus, consectetur justo nec, posuere libero.
+
+Etiam aliquet, mi eu bibendum convallis, ipsum turpis ullamcorper nulla, sit amet rutrum magna purus non libero. Nam vulputate metus orci, ac ultricies dolor consectetur id. Vestibulum non purus dapibus, semper nisi sit amet, mattis elit. Donec tempor dui quis nisi volutpat ultricies. Praesent metus nibh, consectetur at lobortis nec, porttitor in velit. Curabitur laoreet nunc et tortor scelerisque tincidunt. Nam enim metus, bibendum vel turpis eu, fringilla congue est. Nullam libero sem, aliquet non tempus sed, consequat eget odio. Quisque sollicitudin mauris nisi, sed faucibus ligula vehicula quis. Vestibulum eget tortor neque.
+
+\section{Yeah}
+Nam justo mauris, viverra ac enim nec, gravida volutpat justo. Mauris a ultrices lectus, euismod fermentum augue. Duis bibendum, est in luctus dapibus, metus est ornare nisl, eget bibendum nisl felis nec neque. Cras sem nibh, mollis nec rhoncus non, suscipit ut mauris. Nulla mattis enim quam, vitae malesuada metus tempus ultricies. Suspendisse ac odio ornare, rutrum neque ut, dapibus orci. In sed odio tempor, elementum mauris eget, molestie diam. Curabitur interdum feugiat vestibulum. Nam aliquet ac enim id bibendum. Nam eu luctus mi. Aliquam erat volutpat. Curabitur non eros et libero tincidunt imperdiet. Aenean sodales, neque sodales posuere dictum, ante eros fermentum quam, porta rutrum sem orci eu mi. Ut ornare purus erat, sed condimentum arcu luctus vel. Vestibulum quis efficitur ex.
+
+\section{Yatta!}
+Nunc varius eros ac ipsum auctor, sed egestas erat accumsan. Curabitur nec varius justo. Vestibulum nec lectus ac turpis efficitur ullamcorper. Donec faucibus, lacus tristique mattis placerat, mauris tortor auctor nisl, et placerat ipsum velit id velit. Mauris blandit, libero sed bibendum pharetra, sapien augue dictum sem, sit amet varius risus libero ac velit. Vivamus at finibus nisl, quis ornare ex. Integer hendrerit pretium odio, id convallis dui interdum vel. Pellentesque eget odio congue, mattis nulla a, aliquam ligula. Morbi vel tellus dolor. Donec sodales diam nec urna posuere, ut faucibus magna maximus. Proin quis pulvinar metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
