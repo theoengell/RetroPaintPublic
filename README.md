@@ -1,4 +1,4 @@
-# RetroPaint
+# RetroPaintPublic
 Stuff and other stuff wrt RetroPaint
 
 # Testers
